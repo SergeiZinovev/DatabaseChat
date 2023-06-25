@@ -1,7 +1,11 @@
 # DatabaseChat
 Server and Client TCP single-threaded chat with PostgreSQL database connection
+
 The MakeSockert() function on the server and client creates a Socket and organizes communication. All functions responsible for network communication are located in MakeSockert.cpp
+
 All functions responsible for working with the PostgreSQL database are in PostgreSQL.cpp
+
+
 Instructions: 
 1) Start the Server. 
 2)Start the Client and register user. 
